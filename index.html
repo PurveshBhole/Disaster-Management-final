@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscription via SMS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://img.freepik.com/free-photo/amazing-beautiful-sky-with-clouds_58702-1653.jpg?t=st=1728803748~exp=1728807348~hmac=f5d74ce3145ec9dc3a4c4ee9fb1a8ffe8ba6f3e6d09ae794d9ccc58a72f57364&w=2000');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    .subscribe-box {
+      background-color: rgba(255, 255, 255, 0.8); /* Add some transparency */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      color: #555;
+    }
+    .number {
+      font-weight: bold;
+      color: #e91e63;
+      font-size: 1.5rem;
+    }
+    .instructions {
+      color: #555;
+      font-size: 1rem;
+    }
+    .chatbot-btn {
+      margin-top: 20px;
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .chatbot-btn:hover {
+      background-color: #d81b60;
+    }
+    footer {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="subscribe-box">
+      <h1>Subscribe via SMS</h1>
+      <p>Join our Disaster response by sending the following message:</p>
+      <p class="instructions"><strong>"join mistake-direct"</strong></p>
+      <p>to the number:</p>
+      <p class="number">+1 (415) 523-8886</p>
+      <p class="instructions">Once you send the message, you'll receive updates and notifications directly to your phone.</p>
+      
+      <!-- Button to redirect to chatbot -->
+      <a href="https://disaster-management-final-r4pgtv7xrdqu8ahq3jwc69.streamlit.app/" class="chatbot-btn">Talk to our chatbot</a>
+    </div>
+  </div>
+  <footer>
+    <p>Powered by Twilio SMS. You can opt-out at any time by replying STOP.</p>
+  </footer>
+</body>
+</html>
