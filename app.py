@@ -6,7 +6,7 @@ from groq import Groq
 st.set_page_config(page_title="Disaster Response Chatbot")
 
 # OpenWeather API setup
-OPENWEATHER_API_KEY = "078b7ce730ccb542a4d91ab8438f69da"
+OPENWEATHER_API_KEY = "0c24cff5ec5448c093b83539240810"
 WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 # Custom CSS to set the background image, overlay, and chat icons
@@ -165,7 +165,7 @@ def main():
         ''', unsafe_allow_html=True)
 
         # Initialize Groq client
-        client_groq = initialize_groq_client("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")
+        client_groq = initialize_groq_client("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")
         if client_groq is None:
             st.error("Failed to initialize the Groq client. Please check your API key.")
             st.stop()
