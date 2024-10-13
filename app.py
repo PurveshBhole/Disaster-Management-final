@@ -3,7 +3,7 @@ import requests
 from groq import Groq
 
 # Set page configuration
-st.set_page_config(page_title="Disaster Response App")
+st.set_page_config(page_title="Disaster Response Chatbot")
 
 # OpenWeather API setup
 OPENWEATHER_API_KEY = "078b7ce730ccb542a4d91ab8438f69da"
@@ -128,7 +128,7 @@ def get_weather(city):
 
 # Streamlit app
 def main():
-    st.title("Disaster Response App ")
+    st.title("Disaster Response Chatbot")
 
     if "messages" not in st.session_state:
         st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you today?"}]
