@@ -13,7 +13,7 @@ WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather"
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] {{
-background-image: url("https://img.freepik.com/free-photo/amazing-beautiful-sky-with-clouds_58702-1653.jpg?t=st=1728803748~exp=1728807348~hmac=f5d74ce3145ec9dc3a4c4ee9fb1a8ffe8ba6f3e6d09ae794d9ccc58a72f57364&w=2000");
+background-image: url("imh.avif");
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
